@@ -1,0 +1,14 @@
+{
+  "name": "uni-demo-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Demo uni-app",
+  "license": "MIT",
+  "author": "Guany",
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}

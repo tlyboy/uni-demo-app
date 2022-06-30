@@ -1,0 +1,77 @@
+{
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/message/message",
+      "style": {
+        "navigationBarTitleText": "通知",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/work/work",
+      "style": {
+        "navigationBarTitleText": "作业",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/program/program",
+      "style": {
+        "navigationBarTitleText": "程序",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/mine/mine",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "enablePullDownRefresh": false
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarBackgroundColor": "#f3f4f6",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Guany 的程序",
+    "backgroundColor": "#f3f4f6"
+  },
+  "tabBar": {
+    "color": "#303133",
+    "selectedColor": "#3c9cff",
+    "backgroundColor": "#f3f4f6",
+    "list": [
+      {
+        "pagePath": "pages/message/message",
+        "text": "通知",
+        "iconPath": "static/image/icon_message.png",
+        "selectedIconPath": "static/image/icon_message_HL.png"
+      },
+      {
+        "pagePath": "pages/work/work",
+        "text": "作业",
+        "iconPath": "static/image/icon_work.png",
+        "selectedIconPath": "static/image/icon_work_HL.png"
+      },
+      {
+        "pagePath": "pages/program/program",
+        "text": "程序",
+        "iconPath": "static/image/icon_program.png",
+        "selectedIconPath": "static/image/icon_program_HL.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "static/image/icon_mine.png",
+        "selectedIconPath": "static/image/icon_mine_HL.png"
+      }
+    ]
+  }
+}
