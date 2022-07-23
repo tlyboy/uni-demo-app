@@ -5,5 +5,5 @@
       "@/*": ["./*"]
     }
   },
-  "exclude": ["uni_modules", "unpackage"]
+  "exclude": ["node_modules", "uni_modules", "unpackage"]
 }
