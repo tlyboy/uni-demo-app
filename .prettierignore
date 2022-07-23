@@ -1,2 +1,4 @@
+.hbuilderx/
 uni_modules/
 unpackage/
+pnpm-lock.yaml
